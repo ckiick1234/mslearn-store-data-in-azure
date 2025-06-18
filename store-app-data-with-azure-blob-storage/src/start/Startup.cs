@@ -5,6 +5,12 @@ using Microsoft.Extensions.DependencyInjection;
 using FileUploader.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Hosting;
+using System;
+using Microsoft.Extensions.Azure;
+using Azure.Data.Tables;
+using Azure.Storage.Queues;
+using Azure.Storage.Blobs;
+using Azure.Core.Extensions;
 
 namespace FileUploader
 {
