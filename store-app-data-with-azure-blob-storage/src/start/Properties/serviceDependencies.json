@@ -3,6 +3,11 @@
     "secrets1": {
       "type": "secrets",
       "connectionId": null
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "StorageConnection",
+      "dynamicId": null
     }
   }
 }
